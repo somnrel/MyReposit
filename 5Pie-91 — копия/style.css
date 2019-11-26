@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: Acrom;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+@import url('fonts.css');
+
+div{
+vertical-align:top
+}
+.header{
+	width: 100%;
+	height: 10vh;
+	background:rgb(178, 0, 0);
+	position: relative;
+}
+.site_title{
+	font-family: HarlowSolid;
+	font-size: 10vh;
+	color: rgb(252, 252, 0);
+	text-shadow: rgb(255, 0, 0) 0.5vh 0.3vh 0;
+}
+.space{
+	width: 100%;
+	height: 1vh;
+	background: rgb(178, 0, 0);
+}
+.colortext{
+	color:rgb(178, 0, 0);
+	font-size: 3.5vh;
+	position: relative;
+	bottom: 0.3vh;
+	text-shadow:rgb(252, 252, 0) 0.05vw 0.05vw 0, rgb(252, 252, 0) -0.05vw -0.05vw 0,
+                 rgb(252, 252, 0) -0.05vw 0.05vw 0, rgb(252, 252, 0) 0.05vw -0.05vw 0;
+	border-radius: 5vh 5vh 5vh 5vh;
+	border: 0.1vh solid;
+	height: 3.5vh;
+	width: 55vh;
+	padding: 0.01vh 3vw;
+	@media (min-width: 576px){.colortext:2vh;}
+}
+.dark_line{
+	width: 100%;
+	height: 5vh;
+	background-color:rgb(255, 4, 4);
+	position: relative;
+	font-size: 3vh;
+	color:rgb(252, 252, 0);
+	padding: 10px;
+
+}
+.space_two_box{
+	width: 100%;
+	height: 9vh;
+	background-color:rgb(254, 112, 5);
+}
+.backbox{
+	background-color:rgb(254, 112, 5);
+	height: 60vh;
+	width: 100%;
+}
+.parent{
+font-size: 3vh;
+	width: 100vw;
+	height:70vh;
+
+}
+#box{
+	height: 37vh;
+	width: 27vh;
+	background-color:rgb(192, 0, 0);
+	border-radius: 2vh;
+	font-size: 1.8vh;
+	position: relative;
+	display: inline-block;
+	left: 15.89%;
+	margin-top: 2%;
+}
+img{
+	width: 23.7vh;
+	height: 16vh;
+	left: 1.5vh;
+	border-radius: 2vh;
+	position: absolute;
+	bottom: 16.5vh;
+	top: 5vh;
+}
+h3{
+	color:rgb(251, 251, 0);
+	position: absolute;
+	margin: 1vh;
+	left: 0.5vw;
+}
+.description{
+	color:rgb(251, 251, 0);
+	position: absolute;
+	top: 58%;
+	left: 6%;
+	right: 6%;
+}
+.cost{
+	height: 3vh;
+	width: 9vh;
+	background-color:rgb(226, 67, 5);
+	color:rgb(251, 251, 0);
+	border-radius: 0.5vh 1vh 0.5vh 1vh;
+	border: 0.1vh solid;
+	position: absolute;
+	bottom: 1.5vh;
+	left: 1vw;
+	text-align: center; 
+	padding: 2%;
+}
+a.cart_button{
+	color: rgb(192, 0, 0);
+	text-decoration: none;
+	user-select: none; 
+	white-space: nowrap;
+	height: 3vh;
+	width: 9vh;
+	background-color:rgb(251, 251, 0);
+	border-radius: 1vh 0.5vh 1vh 0.5vh;
+	position: absolute;
+	right: 2vh;
+	bottom: 1.5vh;
+	text-align: center;
+	padding: 2%;
+	font-size: 1.7vh; 
+}
+a.cart_button:hover { background: rgb(232,95,76); }
+a.cart_button:active { background: rgb(152,15,0); }
+
+.bottom_line{
+	width: 100%;
+	height: 15vh;
+	background-color:rgb(255, 4, 4);
+	position: relative;
+}
+.inf{
+	color:rgb(251, 251, 0);
+	white-space: pre;
+	position: absolute;
+	left: 20%;
+	font-size: 1.5vh;
+}
+
+
+@media screen and (max-width: 1600px) {
+    div.one {width: 1500px;}
+}
+@media screen and (max-width: 1280px) {
+    div.one {width: 1100px;}
+}
+@media screen and (max-width: 1024px) {
+    div.one {width: 900px;}
+
+}
