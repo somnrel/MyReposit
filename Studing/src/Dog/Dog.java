@@ -1,11 +1,15 @@
 package Dog;
 
-public class Dog {
- int size;
- String breed;
- String name;
+public class Dog { // создание объекта
+	
+ int size; // переменные экземпляра
  
- void bark() {
+ String breed; // переменные экземпляра
+ 
+ String name; // переменная экземпляра
+ 
+ void bark() { // метод
+	 
 	 System.out.print("Гав");
  }
 }
